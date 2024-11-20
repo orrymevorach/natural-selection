@@ -58,3 +58,7 @@ export const FEATURE_FLAGS = {
 };
 
 export const topDawgCompetitionLeagueId = 'recrKlmzDj22vkpf9';
+
+export const CONTENT_MODELS = {
+  LIST_MEDIA: 'listMedia',
+};

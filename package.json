@@ -24,6 +24,7 @@
     "@tsparticles/react": "^3.0.0",
     "@tsparticles/slim": "^3.0.2",
     "clsx": "^1.2.1",
+    "contentful": "^11.2.2",
     "eslint": "8.32.0",
     "eslint-config-next": "13.1.6",
     "firebase": "^9.17.1",

@@ -1,0 +1,48 @@
+@use '@mixins' as mixins;
+
+.container {
+  opacity: 0.5;
+  &.active {
+    animation: fadeIn 0.5s forwards;
+  }
+}
+
+.mediaContainer {
+  display: grid;
+  grid-template-columns: repeat(5, 1fr);
+  margin: 40px 0 20px;
+  gap: 20px;
+}
+
+.title {
+  margin-bottom: 30px;
+  height: 50px;
+}
+
+.bottomRow {
+  margin-top: 15px;
+  display: flex;
+  align-items: center;
+  p {
+    @include mixins.fontSecondaryBold;
+    font-size: 12px;
+    letter-spacing: 1.1px;
+  }
+}
+
+.dot {
+  border-radius: 50%;
+  background-color: white;
+  height: 5px;
+  width: 5px;
+  margin: 0 10px;
+}
+
+@keyframes fadeIn {
+  from {
+    opacity: 0.5;
+  }
+  to {
+    opacity: 1;
+  }
+}
